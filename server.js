@@ -49,7 +49,7 @@ function createTemplate(data)
     
     `
 ;
-return createTemplate;
+return htmlTemplate;
     
 }
 
