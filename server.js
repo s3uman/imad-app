@@ -46,11 +46,7 @@ function createTemplate(data)
                 ${content}
             </div>
         </div>
-
-
-    
-    `
-;
+`;
 return htmlTemplate;
     
 }
