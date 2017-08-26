@@ -10,10 +10,11 @@ button.onclick = function(){
               var counter= request.responseText;
               var span =document.getElementById('count');
               span.innerHTML=counter.toString();
-              counter=counter+1;
+             
           }
       }
     };
+     counter=counter+1;
     request.open('GET','http://nagasumanth48.imad.hasura-app.io/counter',true);
     request.send(null);
     
